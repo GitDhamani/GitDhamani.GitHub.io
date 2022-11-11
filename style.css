@@ -23,8 +23,8 @@ body, h1, p {
 	padding: 0;
 }
 
-.Video {
-	display: block;
+.Title {
+	font-size: 20px;
 }
 
 img {
