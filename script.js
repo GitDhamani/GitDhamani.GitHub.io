@@ -1,4 +1,4 @@
-
+/*
 var folder = "https://html5-templates.com/images/";	//change the image folder
 /*
 Name the image files 1.jpg, 2.jpg.... or adjust the script accordingly
@@ -51,6 +51,7 @@ function loadImage(justone) {
 		preload([folder + (counter+3) +'.jpg']);
 	}
 }
+*/
 	
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
@@ -61,6 +62,7 @@ $(window).scroll(function() {
         $('#back2Top').fadeOut();
     }
 });
+
 $(document).ready(function() {
     $("#back2Top").click(function(event) {
         event.preventDefault();
