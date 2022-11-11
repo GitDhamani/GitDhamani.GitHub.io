@@ -53,6 +53,15 @@
 		<p>The main game logic is reading through the sequence array and flashing the appropriate coloured label. If you incorrectly guess the wrong colour in the sequence, the correct colour is flashed to show you where you've gone wrong and the game is reset. The title bar is updated as you play to show you the length of the sequence you have currently successfully remembered which can be a useful aid for achieving goals and pursuing memory improvement.</p>
 		<p>You can find all the source code <a href="https://github.com/GitDhamani/SimonGame" target="_blank" rel="nofollow">HERE</a>.</p>
 		
+		<div>Shooting Birds Game (QT, C++)</div>
+		<p align="center"><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/uZ2GLr9AT6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+		<p>This is a type of game I have seen designed many different ways over the years and I wanted to do my own version. Particularly interesting was using the math library to engage with the Trig functions in order to ascertain the rotation angle for the Bow so that it can always follow the mouse. The way it works is that each mouse movement triggers an event which is captured by the Bow. Then an invisible line is drawn from the centre of the bow to the current position of the mouse and the angle this makes with the horizontal is easily obtained using the definition of Sine.</p>
+		<p>Using this I could then swivel the Bow image using a rotational transform and this gives the appearance of the bow always being in sync with the position of the mouse. This provides the game mechanism for targeting the birds as they fly by.</p>
+		<p>The birds spawn randomly, and the effect of flapping is achieved by swapping out the image of each bird with alternate wing positions. Each bird is an object as are the arrows and when they collide the bird is replaced with a puff cloud to indicate it's been hit and the score is incremented by one. Arrows can be fired one at a time, or the mouse key can be held down for a continuous auto fire. </p>
+		<p>If any birds make it past the screen, they are automatically deleted and their memory is cleaned up to prevent leaks. Similarly each arrow is destroyed and removed from the Graphics Scene when it leaves the visible area of the screen also, again to prevent memory leaks.</p>
+		<p>You can find all the source code <a href="https://github.com/GitDhamani/ShootingBirdGame" target="_blank" rel="nofollow">HERE</a>.</p>
+		
+		
 		<div>Snake Game</div>
 		<img src="https://html5-templates.com/images/3.jpg" alt="image" />
 		<div>Archery Game</div>
