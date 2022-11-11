@@ -89,6 +89,12 @@ p {
 	margin: 0 0 10px;
 	margin-top: 20px;
 }
+
+.picturepara
+{
+	margin-top: 0px;
+}
+
 a {
 	color: #3282e6;
 	text-decoration: none;
