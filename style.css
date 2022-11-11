@@ -27,7 +27,7 @@ img {
 	max-width: 100%;
 }
 #gallery {
-	text-align: center;
+	text-align: left;
 }
 #gallery img {
 	margin: 10px 0 30px 0;
