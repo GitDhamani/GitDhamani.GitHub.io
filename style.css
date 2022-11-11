@@ -29,6 +29,7 @@ img {
 #gallery {
 	text-align: left;
 	padding-left: 15px;
+	font-size: 20px;
 }
 #gallery img {
 	margin: 10px 0 30px 0;
