@@ -1,8 +1,10 @@
-/*
+
 var folder = "https://html5-templates.com/images/";	//change the image folder
 /*
-Name the image files 1.jpg, 2.jpg.... or adjust the script accordingly
+//Name the image files 1.jpg, 2.jpg.... or adjust the script accordingly
 */
+
+/*
 var counter = 3;
 var loadingol = 0;
 var kepid = "Kep;"
