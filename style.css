@@ -16,11 +16,18 @@ input,select{vertical-align:middle}
 body {
   background-color: #F6F6F6;
 }
-body, h1, p {
+body, p {
 	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
+}
+
+h1 {
+	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 10px;
 }
 
 img {
