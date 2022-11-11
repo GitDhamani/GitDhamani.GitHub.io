@@ -23,11 +23,6 @@ body, h1, p {
 	padding: 0;
 }
 
-.ProjTitle {
-	font-size: 20px;
-	color: black;
-}
-
 img {
 	max-width: 100%;
 }
@@ -43,6 +38,12 @@ img {
 	text-align: center;
 	font-weight: bold;
 }
+
+.ProjTitle {
+	font-size: 20px;
+	color: black;
+}
+
 #loading {
 	text-align: center;
 	margin: 10px 0 40px;
