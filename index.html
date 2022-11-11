@@ -61,14 +61,20 @@
 		<p>If any birds make it past the screen, they are automatically deleted and their memory is cleaned up to prevent leaks. Similarly each arrow is destroyed and removed from the Graphics Scene when it leaves the visible area of the screen also, again to prevent memory leaks.</p>
 		<p>You can find all the source code <a href="https://github.com/GitDhamani/ShootingBirdGame" target="_blank" rel="nofollow">HERE</a>.</p>
 		
+		<div>SQL Database Manager (QT, C++, SQLite)</div>
+		<p align="center"><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/cOzo7QqZJEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+		<p>I find SQL really powerful to use and so here I have created a small Database using SQLite and I'm using QT and C++ to interact and query it. For this to work the Sql module needs to be imported into QT and the QtSql Header file included. Once this is done and qmake is rerun, the project can take advantage of using the SQL Language directly.<p>
+		<p>Once the connection to the database is made, it's then just a matter of preparing and creating the SQL Statements you wish to use and executing them on the database. The typical Select, Update, Delete commands are sufficient to obtain all the functionality to manage the database. <p>
+		<p>By Clicking on any entry, or any column of it, its details populate the edit fields so you are then free to adjust them. Otherwise you can delete entries and add new ones as you wish. The database itself is displayed through a TableView which is loaded via a Select * statement applied to the database.<p>
+		<p>I also implemented a live search feature so that you can pull up all entries which have a certain Job/Profession. As you type your search string, the database is queried for a match and shows the results.<p>
+		<p>You can find all the source code <a href="https://github.com/GitDhamani/SQL-Database-Manager" target="_blank" rel="nofollow">HERE</a>.</p>
+		
 		<div>Graphical Calculator (QT, C++)</div>
 		<p align="center"><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/ZvWSXx2v3hU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 		<p>A Simple Graphical Calculator implemented in QT and C++. The Design of the grid layout was achieved using QT Designer which is very useful, even though normally I'd rather implement the design in code. Then the digit precision of the output display label is set.</p>
 		<p>The math operations (Add, Sub, Mult, Divide) are all handled by the same callback function MathNumPressed which discriminates the operation based on which particular button was pressed. The lambda functions in the connect statements are used efficiently to show how this is all managed.</p>
 		<p>You can find all the source code <a href="https://github.com/GitDhamani/QT-Calculator" target="_blank" rel="nofollow">HERE</a>.</p>
-		
-		
-		
+	
 		<div>Snake Game</div>
 		<img src="https://html5-templates.com/images/3.jpg" alt="image" />
 		<div>Archery Game</div>
