@@ -20,7 +20,7 @@ body, h1, p {
 	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: normal;
 	margin: 0;
-	padding: 0;
+	padding-bottom: 20px;
 }
 
 img {
@@ -78,7 +78,6 @@ h1 {
 p {
 	margin: 0 0 10px;
 	margin-bottom: 20px;
-	margin-top: 20px;
 }
 a {
 	color: #3282e6;
