@@ -34,9 +34,10 @@ img {
 }
 #gallery div {
 	background-color: #bbc;
-	color: #FFF;
+	color: black;
 	text-align: center;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 .ProjTitle {
