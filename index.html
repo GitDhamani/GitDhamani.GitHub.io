@@ -48,7 +48,7 @@
 		<p>I then look at how to craft the way in which the threads execute by using mutex locking and try locking. This tackles the problem of race hazards where the same critical section of code is being run through by multiple threads at the same time. A mutex lock on the critical region ensures threads can only access it sequentially.
 		<p>Following on from this, I look at how to lock multiple critical sections through the std::try_lock() method and provide an example of dual data feeds being consumed by a third thread which occasionally blocks, reads and resets the data. Here we see how we can lock multiple mutex objects at the same time.
 		<p>After this I provide an example of how to use conditional variables in order to synchronise threads in order to have them perform in the sequence you wish, despite operating system and platform dependant differences. This is through the aid of various waiting functions in the conditional variable library that allows you to send a thread to sleep if certain conditions aren't met in which case it will release any locks to mutex objects it has made, allowing other threads to proceed.
-		<p>Multithreading and Concurrency in C++ is a topic of its own, but very valuable to the modern C++ software engineer.
+		<p>Multithreading and Concurrency in C++ is a topic all of its own, but very valuable to the modern C++ software engineer.
 		<p>You can find all the source code <a href="https://github.com/GitDhamani/Multithreading_Concurrency" target="_blank" rel="nofollow">HERE</a>.</p>
 		
 		<div>SQL User Login System (QT, C++)</div>
