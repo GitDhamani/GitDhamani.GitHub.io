@@ -111,6 +111,18 @@ p {
 	padding-top: 10px;
 }
 
+.media-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.media-item {
+    margin-top: -10px; /* Adjust as needed */
+    margin-left: 5px; /* Adjust as needed */
+    margin-right: 5px; /* Adjust as needed */
+    max-width: 50%; /* Adjust as needed */
+}
+
 a {
 	color: #3282e6;
 	text-decoration: none;
