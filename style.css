@@ -117,9 +117,9 @@ p {
 }
 
 .media-item {
-    margin-top: 0px; /* Reset margin-top */
+    margin-top: 10px; /* Reset margin-top */
     position: relative; /* Set position to relative */
-    top: -25px; /* Adjust as needed */
+    top: 25px; /* Adjust as needed */
     vertical-align: middle; /* Adjust vertical alignment */
     margin-left: 5px; /* Adjust as needed */
     margin-right: 5px; /* Adjust as needed */
