@@ -22,11 +22,6 @@
 	<!-- <p align="center"><img src="https://raw.githubusercontent.com/GitDhamani/GitDhamani.GitHub.io/main/ComingSoon.png"/></p> -->
 		
 		<div>Archery Game (QT, C++)</div>
-		
-		<p align="center"><img src="https://github.com/GitDhamani/ResponsiveGUI/assets/111576658/c7b18594-74d7-46ae-aa60-fdfc8bd563e0"/></p>
-		
-		<p align="center"><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/VcMq0t83eqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-		
 		<p align="center"><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/2HtRFvnE4lQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 		<p>Archery Game coded in Qt and C++. You are given 20 arrows to start with and your aim is to achieve the highest score possible. Every time you hit the Bullseye you get 10 points and an extra arrow and so theoretically there is no upper limit on the score if you are particularly skilled. Every time you nearly hit the bullseye you are rewarded with 5 points and an "Excellent" Message. Arrows are fired due to left button mouse presses which are captured in the Graphics View.</p>
 		<p>The Arrows, the Bow and the Target are all subclasses of QGraphicsPixMap. Once publically inherited, each arrow for example, becomes an independent object which automatically traverses across the screen. Its motion and opacity are all completely encapsulated within the class. If it crosses the bounds of the screen, it automatically destroys itself and frees allocated memory. If it collides with the target it becomes a child of it. In addition the motions of the arrow and bow are made smoother through the use of Animations which provide an easing curve that better describes linear projectile motion.</p>
@@ -47,7 +42,7 @@
 		<p>You can find all the source code <a href="https://github.com/GitDhamani/FlappyBird" target="_blank" rel="nofollow">HERE</a>.</p>
 
 		<div>Creating Responsive Layouts (QT, C++)</div>
-		<p align="center"><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/r-d_GTFYLtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+		<p align="center"><img src="https://github.com/GitDhamani/ResponsiveGUI/assets/111576658/c7b18594-74d7-46ae-aa60-fdfc8bd563e0"/></p>
 		<p>The QT Framework has the ability to create flexible and responsive Graphical User Interfaces (GUI) through its Widget Sizing Policy. This example shows how you have several widgets on your layout and control the responsiveness of each.</p>
 		<p>Here I have a List Widget on the left and a Table Widget on the right. The specifications for this design were that the List Widget remained fixed in horizontal width whilst being free to grow vertically if required. In contrast, the Table widget would be allowed to grow both in the horizontal and vertical planes.</p>
 		<p>In addition, I wanted the behaviour of the Table columns to also be responsive and grow uniformly with the Widget itself. However I also wanted to show how you can implement a custom width for any particular column and have it remained fixed whilst the others still continue to be responsive. This is implemented by overriding and handling the resizeEvent() method from the MainWindow class and using it to dynamically resize the columns.</p>
