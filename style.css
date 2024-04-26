@@ -118,6 +118,8 @@ p {
 
 .media-item {
     margin-top: 0px; /* Reset margin-top */
+    position: relative; /* Set position to relative */
+    top: -5px; /* Adjust as needed */
     vertical-align: middle; /* Adjust vertical alignment */
     margin-left: 5px; /* Adjust as needed */
     margin-right: 5px; /* Adjust as needed */
