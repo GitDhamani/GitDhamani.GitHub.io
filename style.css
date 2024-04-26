@@ -120,7 +120,7 @@ p {
     margin-top: 10px; /* Reset margin-top */
     position: relative; /* Set position to relative */
     top: 25px; /* Adjust as needed */
-    vertical-align: middle; /* Adjust vertical alignment */
+    vertical-align: bottom; /* Adjust vertical alignment */
     margin-left: 5px; /* Adjust as needed */
     margin-right: 5px; /* Adjust as needed */
     max-width: 50%; /* Adjust as needed */
