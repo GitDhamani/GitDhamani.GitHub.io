@@ -117,7 +117,7 @@ p {
 }
 
 .media-item {
-    margin-top: -10px; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
     margin-left: 5px; /* Adjust as needed */
     margin-right: 5px; /* Adjust as needed */
     max-width: 50%; /* Adjust as needed */
